@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+   int length;
+   char a[10];
+   
+  gets(a);
+   length=strlen(a);
+   
+     length1=&a;
+     
+     
+     for (int i=0;i<length;i++)
+     {           
+         arr[i]=&a[i];
+     }
+    printf("%d",*length1);
+    
+    
+    
+    return 0;
+}
